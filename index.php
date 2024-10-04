@@ -18,7 +18,7 @@ function cors() {
       }
 }
 cors();
-
+session_start();  
 header('Content-Type: application/json');
 require 'router.php';
 
